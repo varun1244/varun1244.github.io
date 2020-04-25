@@ -25,7 +25,7 @@ body, html {
 
 .bgimg-3 {
   background-image: url("images/logo_2.jpg");
-  min-height: 100%;
+  min-height: 540px;
 }
 
 .bgimg-3 .caption {
@@ -34,6 +34,15 @@ body, html {
 
 .money:before {
   content: "$";
+}
+
+.details {
+  color: #777;
+  font-size: 18px;
+  background-color: white;
+  text-align: center;
+  padding: 50px 200px;
+  text-align: justify;
 }
 
 .caption {
@@ -95,6 +104,10 @@ h3 {
     width: 100% !important;
     display: block;
     margin-bottom: 10px;
+  }
+
+  .details {
+    padding: 50px;
   }
 }
 
