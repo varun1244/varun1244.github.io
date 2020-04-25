@@ -4,7 +4,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/0112a27e45.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0112a27e45.js" crossorigin="anonymous" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" async defer></script>
     <link rel="stylesheet" href="assets/styles.css">
     <title>Done with love</title>
   </head>
@@ -12,12 +13,16 @@
   <body>
 
     <div class="bgimg-1">
+      <div class="navbar">
+        <a href="#about" class="active">About</a>
+        <a href="#stats">Stats</a>
+      </div>
       <div class="caption">
         <p class="border">Donate with love</p>
       </div>
     </div>
 
-    <div class="details">
+    <div class="details" id="about">
       <h2 style="text-align:center;">About</h2>
       <p>The COVID-19 pandemic has widely affected people and businesses across the globe with over <strong>3M</strong> confirmed cases and death toll reaching 6 figures. The recent number of cases has drastically increased in Singapore and the major affected areas have been the foreign worker's dormitories and this is our attempt to do our bit to help the people in need by setting up this donation camp to provide meals to such affected dormitories.</p>
     </div>
@@ -36,7 +41,7 @@
       </div>
     </div>
 
-    <div class="bgimg-3">
+    <div class="bgimg-3" id="stats">
       <div class="caption">
         <div class="row">
 

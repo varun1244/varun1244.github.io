@@ -3,6 +3,7 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  scroll-behavior: smooth;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -14,9 +15,33 @@ body, html {
   background-size: cover;
 
 }
+
 .bgimg-1 {
   background-image: url("images/worker_donate.jpeg");
   min-height: 100%;
+}
+
+.navbar {
+  background-color: #333;
+  margin: 10px;
+  padding: 10px;
+  float: right;
+  font-size: 32px;
+}
+
+.navbar a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  margin-bottom: 2px;
+}
+
+.navbar a+a:before {
+  content: '|';
+  margin-right: 20px;
 }
 
 .bgimg-2 {
