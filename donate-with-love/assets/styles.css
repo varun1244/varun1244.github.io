@@ -1,0 +1,117 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/worker_donate.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  min-height: 200px;
+}
+
+.bgimg-3 {
+  background-image: url("images/logo_2.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 .caption {
+  top: 10%;
+}
+
+.money:before {
+  content: "$";
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  width: fit-content;
+  margin: auto;
+  letter-spacing: 10px;
+}
+
+.caption .register {
+  background-color: transparent;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.caption .register a {
+  text-decoration: none;
+  color: teal;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  margin: 5px;
+  padding: 0 5px;
+}
+
+.column.span-2 {
+  width: 31%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100% !important;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.fas {font-size:50px;}
+
+/* Turn off parallax scrolling for tablets and phones */
+/*@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}*/
