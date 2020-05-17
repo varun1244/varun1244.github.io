@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "Test",
+    "owner": "Varun"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "V1",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Varun"
+  }
+}
